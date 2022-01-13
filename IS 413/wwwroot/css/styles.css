@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* have some fun styling this */
 #body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -19,6 +20,7 @@ body h1 {
     line-height: 3rem;
 }
 
+/* have some more fun styling this */
 header > div {
     position: relative;
     display: flex;
@@ -64,6 +66,7 @@ div > a, li > a {
     text-decoration: none;
 }
 
+/* have way too much fun styling this */
 div:hover > a, li:hover > a {
     text-decoration: underline;
 }
