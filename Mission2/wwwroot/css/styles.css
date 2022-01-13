@@ -1,0 +1,109 @@
+﻿*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+body h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#main {
+    font-size: 1.5rem;
+    word-spacing: 1.5;
+    line-height: 3rem;
+}
+
+header > div {
+    position: relative;
+    display: flex;
+    padding: 1rem 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+}
+
+p {
+    margin: 5rem 0;
+}
+
+.github {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin-right: 1rem;
+}
+
+.github > a {
+    align-self: center;
+}
+
+img {
+    display: block;
+    height: 100%;
+}
+
+div > a, li > a {
+    text-decoration: none;
+}
+
+div:hover > a, li:hover > a {
+    text-decoration: underline;
+}
+
+.hero-image {
+    height: calc(100vh - 128px);
+    display: flex;
+    justify-content: center;
+}
+
+section.container {
+    margin-top: 15rem;
+}
+
+.calculator-intro {
+    margin-top: 5rem;
+}
+
+form {
+    margin-bottom: 15rem;
+}
+
+input[type=number] {
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+}
+
+button {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    width: 18rem;
+}
+
+form.form-control {
+    padding: 5rem;
+}
