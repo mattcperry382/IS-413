@@ -110,3 +110,7 @@ label {
 form.form-control {
     padding: 5rem;
 }
+
+.validation-summary-errors {
+    margin-top: 3rem;
+}
